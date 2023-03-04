@@ -1,27 +1,27 @@
-import { FontIcon, initializeIcons, Stack } from "@fluentui/react";
-import { SurveyFreeText } from "./components/surveys/survey-free-text";
+import { initializeIcons, Stack } from '@fluentui/react'
+import { SurveyFreeText } from './components/surveys/SurveyFreeText'
+import jsonData from './data/survey_results.json'
+import { QuestionType } from './components/shared/types'
+import { HappinessScore } from './components/score/HappinessScore'
+import { Header } from './components/header/Header'
+import { type FunctionComponent } from 'react'
 
-initializeIcons();
+initializeIcons()
 
-function App() {
-  const happinessScore = 73;
+export const App: FunctionComponent = () => {
+  const { questions } = jsonData
+  const freeTextQuestions = questions.filter((question) =>
+    question.type === QuestionType.Text)
 
   return (
     <Stack style={{ margin: 20 }}>
-      <h1>
-        <FontIcon iconName="ClipboardList" style={{ marginRight: "5px" }} />
-        Insert survey title here
-      </h1>
-
-      <h1 data-testid="happinessScore">
-        <FontIcon iconName="ChatBot" style={{ marginRight: "5px" }} />
-        {happinessScore} / 100
-      </h1>
+      <Header data={jsonData}/>
+      <HappinessScore questions={questions}/>
       <Stack>
-        <SurveyFreeText />
+        <SurveyFreeText freeTextQuestions={freeTextQuestions}/>
       </Stack>
     </Stack>
-  );
+  )
 }
 
-export default App;
+export default App
