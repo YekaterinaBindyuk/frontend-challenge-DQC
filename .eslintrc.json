@@ -5,7 +5,8 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "standard-with-typescript"
+        "standard-with-typescript",
+        "prettier"
     ],
     "overrides": [
     ],
@@ -19,6 +20,37 @@
     ],
     "rules": {
     "react/react-in-jsx-scope": "off",
-    "max-len": 1
+    "max-len": 1,
+    "import/order": [
+        "error",
+        {
+          "groups": ["external", "internal", ["parent", "sibling", "index"], "unknown"],
+          "pathGroups": [
+            {
+              "pattern": "{react,react-redux,react-dom}",
+              "group": "external",
+              "position": "before"
+            },
+            {
+              "pattern": " @{common,features}/**",
+              "group": "internal"
+            },
+          {
+            "pattern": "./*.module.css",
+            "group": "unknown"
+          }
+          ],
+          "pathGroupsExcludedImportTypes": ["internal"],
+          "warnOnUnassignedImports": false,
+          "newlines-between": "always",
+          "alphabetize": {
+            "order": "asc",
+            "caseInsensitive": true
+          }
+        }
+      ],
+      "key-spacing": "off",
+      "@typescript-eslint/key-spacing": "off",
+      "@typescript-eslint/strict-boolean-expressions": 0
     }
-}
+  }

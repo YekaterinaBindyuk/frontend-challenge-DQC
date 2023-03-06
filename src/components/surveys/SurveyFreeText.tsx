@@ -1,8 +1,10 @@
-import { CheckboxVisibility, DetailsList, Stack } from '@fluentui/react'
 import { type FunctionComponent, useMemo } from 'react'
+
+import { CheckboxVisibility, DetailsList, Stack } from '@fluentui/react'
+
 import { TITLE, TITLE_MIN_WIDTH } from './const'
 import { getGroups, getItems } from './helpers'
-import { type SurveyFreeTextProps } from './types'
+import type { SurveyFreeTextProps } from './types'
 
 export const SurveyFreeText: FunctionComponent<SurveyFreeTextProps> =
   ({ freeTextQuestions }) => {
@@ -10,7 +12,6 @@ export const SurveyFreeText: FunctionComponent<SurveyFreeTextProps> =
       [freeTextQuestions])
     const items = useMemo(() => getItems(freeTextQuestions),
       [freeTextQuestions])
-
     const _onRenderColumn = (item?: string): JSX.Element => {
       return <div data-is-focusable={true}>{item}</div>
     }

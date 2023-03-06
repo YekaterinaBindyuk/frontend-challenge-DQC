@@ -2,8 +2,11 @@ export enum QuestionType {
   Text = 'text',
   Number = 'number',
 };
+
 export interface Question {
-  questionText: string
+  question_text: string
+  type: QuestionType
+  responses: Array<number | string>;
 }
 
 export interface ScaleQuestion extends Question {
@@ -17,7 +20,14 @@ export interface FreeTextQuestion extends Question {
 }
 
 export interface SurveyResults {
-  surveyTitle: string
-  createdAt: Date
-  questions: FreeTextQuestion | ScaleQuestion[]
+  survey_title: string
+  created_at: string
+  questions: Question[] 
 }
+
+const isQuestionOfType = <T extends QuestionType>(type: T) =>
+    (question: Question): question is Extract<Question, { type: T }> =>
+        question.type === type;
+
+export const isFreeTextQuestion = isQuestionOfType(QuestionType.Text);
+export const isScaleQuestion = isQuestionOfType(QuestionType.Number);

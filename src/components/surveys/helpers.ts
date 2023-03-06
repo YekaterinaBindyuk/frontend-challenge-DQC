@@ -1,13 +1,15 @@
 import { type IGroup } from '@fluentui/react'
+
 import { type FreeTextQuestion } from '../shared/types'
 
 export const getGroups = (freeTextQuestions: FreeTextQuestion[]): IGroup[] => {
   let startIndex = 0
   const groups = freeTextQuestions.map((question: FreeTextQuestion) => {
-    const count = question.responses.length
+    const { responses, question_text: questionText } = question
+    const count = responses.length
     const group = {
-      key: question.questionText,
-      name: question.questionText,
+      key: questionText,
+      name: questionText,
       count,
       startIndex
     }

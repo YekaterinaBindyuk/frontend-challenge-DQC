@@ -1,0 +1,2530 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders the component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="ms-Stack root css-109"
+      >
+        <h1>
+          <i
+            aria-hidden="true"
+            class="ms-Icon root-105 css-111 icon"
+            data-icon-name="ClipboardList"
+            style="font-family: \\"FabricMDL2Icons-9\\";"
+          >
+            
+          </i>
+          Business data survey
+        </h1>
+        <div>
+          <span
+            data-testid="creationDay"
+          >
+            This survey was started on 
+            16.11.2022
+            .
+          </span>
+          <span
+            data-testid="respondersCount"
+          >
+             Overall, 
+            45
+             people participated in the survey.
+          </span>
+        </div>
+        <h1
+          data-testid="happinessScore"
+        >
+          <i
+            aria-hidden="true"
+            class="ms-Icon root-105 css-113 icon"
+            data-icon-name="ChatBot"
+            style="font-family: \\"FabricMDL2Icons-8\\";"
+          >
+            
+          </i>
+          59
+           / 
+          100
+        </h1>
+        <div
+          class="ms-Stack css-109"
+        >
+          <div
+            class="ms-Stack css-109"
+            data-testid="FreeTextTable"
+          >
+            <div
+              class="ms-Viewport"
+              style="min-width: 1px; min-height: 1px;"
+            >
+              <div
+                class="ms-DetailsList ms-DetailsList--Compact is-horizontalConstrained root-114"
+                data-automationid="DetailsList"
+                data-is-scrollable="false"
+              >
+                <div
+                  aria-colcount="2"
+                  aria-rowcount="35"
+                  role="grid"
+                >
+                  <div
+                    class="ms-DetailsList-headerWrapper"
+                    role="presentation"
+                  >
+                    <div
+                      class="ms-FocusZone css-132 ms-DetailsHeader root-116"
+                      data-automationid="DetailsHeader"
+                      data-focuszone-id="FocusZone2"
+                      role="row"
+                    >
+                      <div
+                        aria-expanded="false"
+                        class="ms-DetailsHeader-cell cellIsGroupExpander-120"
+                        data-is-focusable="true"
+                        role="columnheader"
+                        tabindex="0"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="ms-Icon root-105 css-134 ms-DetailsHeader-collapseButton is-collapsed collapseButton-126"
+                          data-icon-name="ChevronRightMed"
+                          style="font-family: \\"FabricMDL2Icons-3\\";"
+                        >
+                          
+                        </i>
+                        <span
+                          class="accessibleLabel-127"
+                        />
+                      </div>
+                      <div
+                        aria-labelledby="header1-Text answers-name"
+                        aria-sort="none"
+                        class="ms-DetailsHeader-cell is-actionable root-135"
+                        data-automationid="ColumnsHeaderColumn"
+                        data-is-draggable="false"
+                        data-is-focusable="true"
+                        data-item-key="Text answers"
+                        draggable="false"
+                        role="columnheader"
+                        style="width: 220px;"
+                        tabindex="-1"
+                      >
+                        <span
+                          class="cellTooltip-143"
+                        >
+                          <span
+                            class="ms-DetailsHeader-cellTitle cellTitle-141"
+                            id="header1-Text answers"
+                          >
+                            <span
+                              class="ms-DetailsHeader-cellName cellName-142"
+                              id="header1-Text answers-name"
+                            >
+                              Text answers
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ms-DetailsList-contentWrapper"
+                    role="presentation"
+                  >
+                    <div
+                      class="ms-SelectionZone"
+                      role="presentation"
+                    >
+                      <div
+                        class="ms-FocusZone css-132 ms-GroupedList ms-GroupedList--Compact root-148 focusZone-115"
+                        data-automationid="GroupedList"
+                        data-focuszone-id="FocusZone3"
+                        data-is-scrollable="false"
+                        role="presentation"
+                      >
+                        <div
+                          class="ms-List"
+                          role="presentation"
+                        >
+                          <div
+                            class="ms-List-surface"
+                            role="presentation"
+                          >
+                            <div
+                              class="ms-List-page"
+                              role="presentation"
+                            >
+                              <div
+                                class="ms-List-cell"
+                                data-automationid="ListCell"
+                                data-list-index="0"
+                                role="presentation"
+                              >
+                                <div
+                                  class="ms-GroupedList-group group-149"
+                                  role="presentation"
+                                >
+                                  <div
+                                    aria-expanded="true"
+                                    aria-labelledby="GroupHeader5"
+                                    aria-rowindex="2"
+                                    class="ms-GroupHeader ms-GroupHeader--compact root-151"
+                                    data-is-focusable="true"
+                                    data-selection-index="0"
+                                    data-selection-span="6"
+                                    role="row"
+                                    tabindex="0"
+                                  >
+                                    <div
+                                      class="groupHeaderContainer-152"
+                                      role="presentation"
+                                    >
+                                      <div
+                                        class="ms-GroupHeader-dropIcon dropIcon-158"
+                                        role="presentation"
+                                      >
+                                        <i
+                                          aria-hidden="true"
+                                          class="root-161"
+                                          data-icon-name="Tag"
+                                        >
+                                          
+                                        </i>
+                                      </div>
+                                      <div
+                                        role="gridcell"
+                                      >
+                                        <button
+                                          aria-expanded="true"
+                                          aria-label="expand collapse group"
+                                          class="ms-GroupHeader-expand expand-155"
+                                          data-is-focusable="false"
+                                          data-selection-disabled="true"
+                                          tabindex="-1"
+                                          type="button"
+                                        >
+                                          <i
+                                            aria-hidden="true"
+                                            class="expandIsCollapsed-162"
+                                            data-icon-name="ChevronRightMed"
+                                          >
+                                            
+                                          </i>
+                                        </button>
+                                      </div>
+                                      <div
+                                        aria-colspan="1"
+                                        class="ms-GroupHeader-title title-157"
+                                        data-selection-invoke="true"
+                                        id="GroupHeader5"
+                                        role="gridcell"
+                                      >
+                                        <span>
+                                          What data is NOT always reliable and correct?
+                                        </span>
+                                        <span
+                                          class="headerCount-153"
+                                        >
+                                          (
+                                          6
+                                          )
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    aria-label="What data is NOT always reliable and correct?"
+                                    class="ms-List"
+                                    id="GroupedListSection4"
+                                    role="rowgroup"
+                                  >
+                                    <div
+                                      class="ms-List-surface"
+                                      role="presentation"
+                                    >
+                                      <div
+                                        class="ms-List-page"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="0"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="3"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone7"
+                                            data-is-focusable="true"
+                                            data-item-index="0"
+                                            data-selection-index="0"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-0"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  Budget
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="1"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="4"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone9"
+                                            data-is-focusable="true"
+                                            data-item-index="1"
+                                            data-selection-index="1"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-1"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  HR master data
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="2"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="5"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone11"
+                                            data-is-focusable="true"
+                                            data-item-index="2"
+                                            data-selection-index="2"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-2"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  Values of different items and tasks
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="3"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="6"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone13"
+                                            data-is-focusable="true"
+                                            data-item-index="3"
+                                            data-selection-index="3"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-3"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  As different functions sometimes have different de…ross-functional comparison is sometimes difficult
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="4"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="7"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone15"
+                                            data-is-focusable="true"
+                                            data-item-index="4"
+                                            data-selection-index="4"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-4"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  Theoretically similar data definitions are different across geographies
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="5"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="8"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone17"
+                                            data-is-focusable="true"
+                                            data-item-index="5"
+                                            data-selection-index="5"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-5"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  Supplier data is often incomplete or lacking at all
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="ms-List-page"
+                              role="presentation"
+                            >
+                              <div
+                                class="ms-List-cell"
+                                data-automationid="ListCell"
+                                data-list-index="1"
+                                role="presentation"
+                              >
+                                <div
+                                  class="ms-GroupedList-group group-149"
+                                  role="presentation"
+                                >
+                                  <div
+                                    aria-expanded="true"
+                                    aria-labelledby="GroupHeader19"
+                                    aria-rowindex="9"
+                                    class="ms-GroupHeader ms-GroupHeader--compact root-151"
+                                    data-is-focusable="true"
+                                    data-selection-index="6"
+                                    data-selection-span="20"
+                                    role="row"
+                                    tabindex="-1"
+                                  >
+                                    <div
+                                      class="groupHeaderContainer-152"
+                                      role="presentation"
+                                    >
+                                      <div
+                                        class="ms-GroupHeader-dropIcon dropIcon-158"
+                                        role="presentation"
+                                      >
+                                        <i
+                                          aria-hidden="true"
+                                          class="root-161"
+                                          data-icon-name="Tag"
+                                        >
+                                          
+                                        </i>
+                                      </div>
+                                      <div
+                                        role="gridcell"
+                                      >
+                                        <button
+                                          aria-expanded="true"
+                                          aria-label="expand collapse group"
+                                          class="ms-GroupHeader-expand expand-155"
+                                          data-is-focusable="false"
+                                          data-selection-disabled="true"
+                                          tabindex="-1"
+                                          type="button"
+                                        >
+                                          <i
+                                            aria-hidden="true"
+                                            class="expandIsCollapsed-162"
+                                            data-icon-name="ChevronRightMed"
+                                          >
+                                            
+                                          </i>
+                                        </button>
+                                      </div>
+                                      <div
+                                        aria-colspan="1"
+                                        class="ms-GroupHeader-title title-157"
+                                        data-selection-invoke="true"
+                                        id="GroupHeader19"
+                                        role="gridcell"
+                                      >
+                                        <span>
+                                          Which one do you think is missing?
+                                        </span>
+                                        <span
+                                          class="headerCount-153"
+                                        >
+                                          (
+                                          20
+                                          )
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    aria-label="Which one do you think is missing?"
+                                    class="ms-List"
+                                    id="GroupedListSection18"
+                                    role="rowgroup"
+                                  >
+                                    <div
+                                      class="ms-List-surface"
+                                      role="presentation"
+                                    >
+                                      <div
+                                        class="ms-List-page"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="6"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="10"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone21"
+                                            data-is-focusable="true"
+                                            data-item-index="6"
+                                            data-selection-index="6"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-6"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  None
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="7"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="11"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone23"
+                                            data-is-focusable="true"
+                                            data-item-index="7"
+                                            data-selection-index="7"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-7"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  Values of different items and tasks
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="8"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="12"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone25"
+                                            data-is-focusable="true"
+                                            data-item-index="8"
+                                            data-selection-index="8"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-8"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  A software based support that holistically/across functions supports to prioritize data use cases
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="9"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="13"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone27"
+                                            data-is-focusable="true"
+                                            data-item-index="9"
+                                            data-selection-index="9"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-9"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  Scientific databases and journals should be made easily accessible without long approval processes
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="10"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="14"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone29"
+                                            data-is-focusable="true"
+                                            data-item-index="10"
+                                            data-selection-index="10"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-10"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  Carbon software
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="11"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="15"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone31"
+                                            data-is-focusable="true"
+                                            data-item-index="11"
+                                            data-selection-index="11"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-11"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  It is not directly a tool, but access to some anonymized employee performance data would be great
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="12"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="16"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone33"
+                                            data-is-focusable="true"
+                                            data-item-index="12"
+                                            data-selection-index="12"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-12"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  PowerBI
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="13"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="17"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone35"
+                                            data-is-focusable="true"
+                                            data-item-index="13"
+                                            data-selection-index="13"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-13"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  Platform for data sharing with external parties in both directions.
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="14"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="18"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone37"
+                                            data-is-focusable="true"
+                                            data-item-index="14"
+                                            data-selection-index="14"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-14"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  A tool that helps to better get insights into our machine generated data
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ms-List-cell"
+                                          data-automationid="ListCell"
+                                          data-list-index="15"
+                                          role="presentation"
+                                        >
+                                          <div
+                                            aria-rowindex="19"
+                                            aria-selected="false"
+                                            class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                            data-automationid="DetailsRow"
+                                            data-focuszone-id="FocusZone39"
+                                            data-is-focusable="true"
+                                            data-item-index="15"
+                                            data-selection-index="15"
+                                            data-selection-touch-invoke="true"
+                                            id="row0-15"
+                                            role="row"
+                                            style="min-width: 200px;"
+                                            tabindex="-1"
+                                          >
+                                            <span
+                                              class="ms-GroupSpacer"
+                                              role="gridcell"
+                                              style="display: inline-block; width: 36px;"
+                                            />
+                                            <div
+                                              class="ms-DetailsRow-fields fields-171"
+                                              data-automationid="DetailsRowFields"
+                                              role="presentation"
+                                            >
+                                              <div
+                                                class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                                data-automation-key="Text answers"
+                                                data-automationid="DetailsRowCell"
+                                                role="gridcell"
+                                                style="width: 220px;"
+                                              >
+                                                <div
+                                                  data-is-focusable="true"
+                                                  tabindex="-1"
+                                                >
+                                                  (Semi-automated) CO2 accounting tool
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <span
+                                              aria-checked="false"
+                                              class="checkCover-170"
+                                              data-selection-toggle="true"
+                                              role="checkbox"
+                                            />
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="ms-List-page"
+                              role="presentation"
+                              style="height: 192px;"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="ms-Stack root css-109"
+    >
+      <h1>
+        <i
+          aria-hidden="true"
+          class="ms-Icon root-105 css-111 icon"
+          data-icon-name="ClipboardList"
+          style="font-family: \\"FabricMDL2Icons-9\\";"
+        >
+          
+        </i>
+        Business data survey
+      </h1>
+      <div>
+        <span
+          data-testid="creationDay"
+        >
+          This survey was started on 
+          16.11.2022
+          .
+        </span>
+        <span
+          data-testid="respondersCount"
+        >
+           Overall, 
+          45
+           people participated in the survey.
+        </span>
+      </div>
+      <h1
+        data-testid="happinessScore"
+      >
+        <i
+          aria-hidden="true"
+          class="ms-Icon root-105 css-113 icon"
+          data-icon-name="ChatBot"
+          style="font-family: \\"FabricMDL2Icons-8\\";"
+        >
+          
+        </i>
+        59
+         / 
+        100
+      </h1>
+      <div
+        class="ms-Stack css-109"
+      >
+        <div
+          class="ms-Stack css-109"
+          data-testid="FreeTextTable"
+        >
+          <div
+            class="ms-Viewport"
+            style="min-width: 1px; min-height: 1px;"
+          >
+            <div
+              class="ms-DetailsList ms-DetailsList--Compact is-horizontalConstrained root-114"
+              data-automationid="DetailsList"
+              data-is-scrollable="false"
+            >
+              <div
+                aria-colcount="2"
+                aria-rowcount="35"
+                role="grid"
+              >
+                <div
+                  class="ms-DetailsList-headerWrapper"
+                  role="presentation"
+                >
+                  <div
+                    class="ms-FocusZone css-132 ms-DetailsHeader root-116"
+                    data-automationid="DetailsHeader"
+                    data-focuszone-id="FocusZone2"
+                    role="row"
+                  >
+                    <div
+                      aria-expanded="false"
+                      class="ms-DetailsHeader-cell cellIsGroupExpander-120"
+                      data-is-focusable="true"
+                      role="columnheader"
+                      tabindex="0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="ms-Icon root-105 css-134 ms-DetailsHeader-collapseButton is-collapsed collapseButton-126"
+                        data-icon-name="ChevronRightMed"
+                        style="font-family: \\"FabricMDL2Icons-3\\";"
+                      >
+                        
+                      </i>
+                      <span
+                        class="accessibleLabel-127"
+                      />
+                    </div>
+                    <div
+                      aria-labelledby="header1-Text answers-name"
+                      aria-sort="none"
+                      class="ms-DetailsHeader-cell is-actionable root-135"
+                      data-automationid="ColumnsHeaderColumn"
+                      data-is-draggable="false"
+                      data-is-focusable="true"
+                      data-item-key="Text answers"
+                      draggable="false"
+                      role="columnheader"
+                      style="width: 220px;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="cellTooltip-143"
+                      >
+                        <span
+                          class="ms-DetailsHeader-cellTitle cellTitle-141"
+                          id="header1-Text answers"
+                        >
+                          <span
+                            class="ms-DetailsHeader-cellName cellName-142"
+                            id="header1-Text answers-name"
+                          >
+                            Text answers
+                          </span>
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ms-DetailsList-contentWrapper"
+                  role="presentation"
+                >
+                  <div
+                    class="ms-SelectionZone"
+                    role="presentation"
+                  >
+                    <div
+                      class="ms-FocusZone css-132 ms-GroupedList ms-GroupedList--Compact root-148 focusZone-115"
+                      data-automationid="GroupedList"
+                      data-focuszone-id="FocusZone3"
+                      data-is-scrollable="false"
+                      role="presentation"
+                    >
+                      <div
+                        class="ms-List"
+                        role="presentation"
+                      >
+                        <div
+                          class="ms-List-surface"
+                          role="presentation"
+                        >
+                          <div
+                            class="ms-List-page"
+                            role="presentation"
+                          >
+                            <div
+                              class="ms-List-cell"
+                              data-automationid="ListCell"
+                              data-list-index="0"
+                              role="presentation"
+                            >
+                              <div
+                                class="ms-GroupedList-group group-149"
+                                role="presentation"
+                              >
+                                <div
+                                  aria-expanded="true"
+                                  aria-labelledby="GroupHeader5"
+                                  aria-rowindex="2"
+                                  class="ms-GroupHeader ms-GroupHeader--compact root-151"
+                                  data-is-focusable="true"
+                                  data-selection-index="0"
+                                  data-selection-span="6"
+                                  role="row"
+                                  tabindex="0"
+                                >
+                                  <div
+                                    class="groupHeaderContainer-152"
+                                    role="presentation"
+                                  >
+                                    <div
+                                      class="ms-GroupHeader-dropIcon dropIcon-158"
+                                      role="presentation"
+                                    >
+                                      <i
+                                        aria-hidden="true"
+                                        class="root-161"
+                                        data-icon-name="Tag"
+                                      >
+                                        
+                                      </i>
+                                    </div>
+                                    <div
+                                      role="gridcell"
+                                    >
+                                      <button
+                                        aria-expanded="true"
+                                        aria-label="expand collapse group"
+                                        class="ms-GroupHeader-expand expand-155"
+                                        data-is-focusable="false"
+                                        data-selection-disabled="true"
+                                        tabindex="-1"
+                                        type="button"
+                                      >
+                                        <i
+                                          aria-hidden="true"
+                                          class="expandIsCollapsed-162"
+                                          data-icon-name="ChevronRightMed"
+                                        >
+                                          
+                                        </i>
+                                      </button>
+                                    </div>
+                                    <div
+                                      aria-colspan="1"
+                                      class="ms-GroupHeader-title title-157"
+                                      data-selection-invoke="true"
+                                      id="GroupHeader5"
+                                      role="gridcell"
+                                    >
+                                      <span>
+                                        What data is NOT always reliable and correct?
+                                      </span>
+                                      <span
+                                        class="headerCount-153"
+                                      >
+                                        (
+                                        6
+                                        )
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  aria-label="What data is NOT always reliable and correct?"
+                                  class="ms-List"
+                                  id="GroupedListSection4"
+                                  role="rowgroup"
+                                >
+                                  <div
+                                    class="ms-List-surface"
+                                    role="presentation"
+                                  >
+                                    <div
+                                      class="ms-List-page"
+                                      role="presentation"
+                                    >
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="0"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="3"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone7"
+                                          data-is-focusable="true"
+                                          data-item-index="0"
+                                          data-selection-index="0"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-0"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                Budget
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="1"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="4"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone9"
+                                          data-is-focusable="true"
+                                          data-item-index="1"
+                                          data-selection-index="1"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-1"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                HR master data
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="2"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="5"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone11"
+                                          data-is-focusable="true"
+                                          data-item-index="2"
+                                          data-selection-index="2"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-2"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                Values of different items and tasks
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="3"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="6"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone13"
+                                          data-is-focusable="true"
+                                          data-item-index="3"
+                                          data-selection-index="3"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-3"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                As different functions sometimes have different de…ross-functional comparison is sometimes difficult
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="4"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="7"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone15"
+                                          data-is-focusable="true"
+                                          data-item-index="4"
+                                          data-selection-index="4"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-4"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                Theoretically similar data definitions are different across geographies
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="5"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="8"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone17"
+                                          data-is-focusable="true"
+                                          data-item-index="5"
+                                          data-selection-index="5"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-5"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                Supplier data is often incomplete or lacking at all
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="ms-List-page"
+                            role="presentation"
+                          >
+                            <div
+                              class="ms-List-cell"
+                              data-automationid="ListCell"
+                              data-list-index="1"
+                              role="presentation"
+                            >
+                              <div
+                                class="ms-GroupedList-group group-149"
+                                role="presentation"
+                              >
+                                <div
+                                  aria-expanded="true"
+                                  aria-labelledby="GroupHeader19"
+                                  aria-rowindex="9"
+                                  class="ms-GroupHeader ms-GroupHeader--compact root-151"
+                                  data-is-focusable="true"
+                                  data-selection-index="6"
+                                  data-selection-span="20"
+                                  role="row"
+                                  tabindex="-1"
+                                >
+                                  <div
+                                    class="groupHeaderContainer-152"
+                                    role="presentation"
+                                  >
+                                    <div
+                                      class="ms-GroupHeader-dropIcon dropIcon-158"
+                                      role="presentation"
+                                    >
+                                      <i
+                                        aria-hidden="true"
+                                        class="root-161"
+                                        data-icon-name="Tag"
+                                      >
+                                        
+                                      </i>
+                                    </div>
+                                    <div
+                                      role="gridcell"
+                                    >
+                                      <button
+                                        aria-expanded="true"
+                                        aria-label="expand collapse group"
+                                        class="ms-GroupHeader-expand expand-155"
+                                        data-is-focusable="false"
+                                        data-selection-disabled="true"
+                                        tabindex="-1"
+                                        type="button"
+                                      >
+                                        <i
+                                          aria-hidden="true"
+                                          class="expandIsCollapsed-162"
+                                          data-icon-name="ChevronRightMed"
+                                        >
+                                          
+                                        </i>
+                                      </button>
+                                    </div>
+                                    <div
+                                      aria-colspan="1"
+                                      class="ms-GroupHeader-title title-157"
+                                      data-selection-invoke="true"
+                                      id="GroupHeader19"
+                                      role="gridcell"
+                                    >
+                                      <span>
+                                        Which one do you think is missing?
+                                      </span>
+                                      <span
+                                        class="headerCount-153"
+                                      >
+                                        (
+                                        20
+                                        )
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  aria-label="Which one do you think is missing?"
+                                  class="ms-List"
+                                  id="GroupedListSection18"
+                                  role="rowgroup"
+                                >
+                                  <div
+                                    class="ms-List-surface"
+                                    role="presentation"
+                                  >
+                                    <div
+                                      class="ms-List-page"
+                                      role="presentation"
+                                    >
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="6"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="10"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone21"
+                                          data-is-focusable="true"
+                                          data-item-index="6"
+                                          data-selection-index="6"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-6"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                None
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="7"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="11"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone23"
+                                          data-is-focusable="true"
+                                          data-item-index="7"
+                                          data-selection-index="7"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-7"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                Values of different items and tasks
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="8"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="12"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone25"
+                                          data-is-focusable="true"
+                                          data-item-index="8"
+                                          data-selection-index="8"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-8"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                A software based support that holistically/across functions supports to prioritize data use cases
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="9"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="13"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone27"
+                                          data-is-focusable="true"
+                                          data-item-index="9"
+                                          data-selection-index="9"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-9"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                Scientific databases and journals should be made easily accessible without long approval processes
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="10"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="14"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone29"
+                                          data-is-focusable="true"
+                                          data-item-index="10"
+                                          data-selection-index="10"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-10"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                Carbon software
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="11"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="15"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone31"
+                                          data-is-focusable="true"
+                                          data-item-index="11"
+                                          data-selection-index="11"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-11"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                It is not directly a tool, but access to some anonymized employee performance data would be great
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="12"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="16"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone33"
+                                          data-is-focusable="true"
+                                          data-item-index="12"
+                                          data-selection-index="12"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-12"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                PowerBI
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="13"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="17"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone35"
+                                          data-is-focusable="true"
+                                          data-item-index="13"
+                                          data-selection-index="13"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-13"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                Platform for data sharing with external parties in both directions.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="14"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="18"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone37"
+                                          data-is-focusable="true"
+                                          data-item-index="14"
+                                          data-selection-index="14"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-14"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                A tool that helps to better get insights into our machine generated data
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ms-List-cell"
+                                        data-automationid="ListCell"
+                                        data-list-index="15"
+                                        role="presentation"
+                                      >
+                                        <div
+                                          aria-rowindex="19"
+                                          aria-selected="false"
+                                          class="ms-FocusZone css-132 ms-DetailsRow is-contentUnselectable root-164"
+                                          data-automationid="DetailsRow"
+                                          data-focuszone-id="FocusZone39"
+                                          data-is-focusable="true"
+                                          data-item-index="15"
+                                          data-selection-index="15"
+                                          data-selection-touch-invoke="true"
+                                          id="row0-15"
+                                          role="row"
+                                          style="min-width: 200px;"
+                                          tabindex="-1"
+                                        >
+                                          <span
+                                            class="ms-GroupSpacer"
+                                            role="gridcell"
+                                            style="display: inline-block; width: 36px;"
+                                          />
+                                          <div
+                                            class="ms-DetailsRow-fields fields-171"
+                                            data-automationid="DetailsRowFields"
+                                            role="presentation"
+                                          >
+                                            <div
+                                              class="ms-DetailsRow-cell cell-167 cellUnpadded-165"
+                                              data-automation-key="Text answers"
+                                              data-automationid="DetailsRowCell"
+                                              role="gridcell"
+                                              style="width: 220px;"
+                                            >
+                                              <div
+                                                data-is-focusable="true"
+                                                tabindex="-1"
+                                              >
+                                                (Semi-automated) CO2 accounting tool
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span
+                                            aria-checked="false"
+                                            class="checkCover-170"
+                                            data-selection-toggle="true"
+                                            role="checkbox"
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="ms-List-page"
+                            role="presentation"
+                            style="height: 192px;"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
